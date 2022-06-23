@@ -25,7 +25,7 @@
 using namespace std;
 
 // Version
-string version = "2022.03.31";
+string version = "2022.06.23";
 
 // Errors
 string error_input1_flag       = "Wrong or missing first input file.";
@@ -218,7 +218,6 @@ int main(int argc,char* argv[]){
     }
 
     if(comment_flag == true){
-        // TODO główna robota
         fstream input1;
         ofstream output;
 
